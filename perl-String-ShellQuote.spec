@@ -3,7 +3,7 @@ Summary:	String-ShellQuote perl module
 Summary(pl):	Modu³ perla String-ShellQuote
 Name:		perl-String-ShellQuote
 Version:	1.00
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
