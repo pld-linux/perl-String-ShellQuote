@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	ShellQuote
-Summary:	String-ShellQuote perl module
-Summary(pl):	Modu³ perla String-ShellQuote
+Summary:	String::ShellQuote perl module
+Summary(pl):	Modu³ perla String::ShellQuote
 Name:		perl-String-ShellQuote
 Version:	1.00
 Release:	8
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-String-ShellQuote - quotes strings so they can be passed through the
+String::ShellQuote - quotes strings so they can be passed through the
 shell.
 
 %description -l pl
-String-ShellQuote - cytuje ³añcuchy tak, by mog³y byæ przekazane do
+String::ShellQuote - cytuje ³añcuchy tak, by mog³y byæ przekazane do
 pow³oki.
 
 %prep
