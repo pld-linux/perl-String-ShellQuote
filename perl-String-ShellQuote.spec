@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	String
-%define	pnam	ShellQuote
+%define		pdir	String
+%define		pnam	ShellQuote
 Summary:	String::ShellQuote perl module
 Summary(pl):	Modu³ perla String::ShellQuote
 Name:		perl-String-ShellQuote
