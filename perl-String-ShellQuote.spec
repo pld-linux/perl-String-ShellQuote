@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla String-ShellQuote
 Name:		perl-String-ShellQuote
 Version:	1.00
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/String/String-ShellQuote-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/String/String-ShellQuote-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,10 +15,12 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-String-ShellQuote - quotes strings so they can be passed through the shell. 
+String-ShellQuote - quotes strings so they can be passed through the
+shell.
 
 %description -l pl
-String-ShellQuote - cytuje ³añcuchy tak, by mog³y byæ przekazane do pow³oki.
+String-ShellQuote - cytuje ³añcuchy tak, by mog³y byæ przekazane do
+pow³oki.
 
 %prep
 %setup -q -n String-ShellQuote-%{version}
