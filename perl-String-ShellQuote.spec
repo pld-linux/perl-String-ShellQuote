@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	ShellQuote
-%include	/usr/lib/rpm/macros.perl
 Summary:	String-ShellQuote perl module
 Summary(pl):	Modu³ perla String-ShellQuote
 Name:		perl-String-ShellQuote
 Version:	1.00
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ String-ShellQuote - cytuje ³añcuchy tak, by mog³y byæ przekazane do
 pow³oki.
 
 %prep
-%setup -q -n String-ShellQuote-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
