@@ -5,7 +5,7 @@ Summary:	String::ShellQuote perl module
 Summary(pl):	Modu³ perla String::ShellQuote
 Name:		perl-String-ShellQuote
 Version:	1.00
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
