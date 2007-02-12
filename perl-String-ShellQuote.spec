@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	ShellQuote
 Summary:	String::ShellQuote perl module
-Summary(pl):	Modu≥ perla String::ShellQuote
+Summary(pl.UTF-8):   Modu≈Ç perla String::ShellQuote
 Name:		perl-String-ShellQuote
 Version:	1.03
 Release:	1
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 String::ShellQuote - quotes strings so they can be passed through the
 shell.
 
-%description -l pl
-String::ShellQuote - cytuje ≥aÒcuchy tak, by mog≥y byÊ przekazane do
-pow≥oki.
+%description -l pl.UTF-8
+String::ShellQuote - cytuje ≈Ça≈Ñcuchy tak, by mog≈Çy byƒá przekazane do
+pow≈Çoki.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
