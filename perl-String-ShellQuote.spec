@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	ShellQuote
 Summary:	String::ShellQuote perl module
-Summary(pl.UTF-8):   Moduł perla String::ShellQuote
+Summary(pl.UTF-8):	Moduł perla String::ShellQuote
 Name:		perl-String-ShellQuote
 Version:	1.03
 Release:	1
