@@ -8,13 +8,13 @@
 Summary:	String::ShellQuote perl module
 Summary(pl.UTF-8):	Moduł perla String::ShellQuote
 Name:		perl-String-ShellQuote
-Version:	1.03
-Release:	2
+Version:	1.04
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b42822efe385f6604f55b0cea5ac0b76
+# Source0-md5:	da6329dc482b21adf5697cfbd2ac5412
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildArch:	noarch
